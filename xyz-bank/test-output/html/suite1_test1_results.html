@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Bank test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Bank test</h1>
+<p>
+  Test duration: 25.364s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.bank.testsuit.BankTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  customerShouldWithdrawMoneySuccessfully
+      </td>
+  <td class="duration">
+    1.468s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on log in button<brb>
+                                select Your name Hermoine Granger<br>
+                                click on log in buttonbr
+                                click on Withdrow<br>
+                                Enter amount50<brb>
+                                click on withdrow<brb>
+                                get successfully withdrowal texTransaction successful<brb>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\pkinj\IdeaProjects\xyz-bank/test-output/html/customerShouldWithdrawMoneySuccessfullyThu_May_12_21_31_38_BST_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\pkinj\IdeaProjects\xyz-bank/test-output/html/customerShouldWithdrawMoneySuccessfullyThu_May_12_21_31_38_BST_2022.jpg><img src=C:\Users\pkinj\IdeaProjects\xyz-bank/test-output/html/customerShouldWithdrawMoneySuccessfullyThu_May_12_21_31_38_BST_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: displayed message is wrong&nbsp; expected [Transaction Successful] but found [Transaction successful]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1413)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:149)<br />
+              org.testng.Assert.assertEquals(Assert.java:131)<br />
+              org.testng.Assert.assertEquals(Assert.java:655)<br />
+              com.bank.testsuit.BankTest.customerShouldWithdrawMoneySuccessfully(BankTest.java:98)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.bank.testsuit.BankTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  bankManagerShouldAddCustomerSuccessfully
+      </td>
+  <td class="duration">
+    1.296s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on manager link[[ChromeDriver: chrome on WINDOWS (9c52d4a82cc0399a1d540dc11df47e70)] -> xpath: //button[normalize-space()='Bank Manager Login']]<br>
+                                click on add customer[[ChromeDriver: chrome on WINDOWS (9c52d4a82cc0399a1d540dc11df47e70)] -> xpath: //button[normalize-space()='Add Customer']]<brb>
+                                Enter first Namedhyani[[ChromeDriver: chrome on WINDOWS (9c52d4a82cc0399a1d540dc11df47e70)] -> xpath: //input[@placeholder='First Name']]<brb>
+                                Enter last namepatel[[ChromeDriver: chrome on WINDOWS (9c52d4a82cc0399a1d540dc11df47e70)] -> xpath: //input[@placeholder='Last Name']]<brb>
+                                Enter Last name 23456[[ChromeDriver: chrome on WINDOWS (9c52d4a82cc0399a1d540dc11df47e70)] -> xpath: //input[@placeholder='Post Code']]<brb>
+                                click on customerButton [[ChromeDriver: chrome on WINDOWS (9c52d4a82cc0399a1d540dc11df47e70)] -> xpath: //button[@type='submit']]<brb>
+                                get text from pop up window <brb>
+                                closing popUP box<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  bankManagerShouldOpenAccountSuccessfully
+      </td>
+  <td class="duration">
+    1.262s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on manager link[[ChromeDriver: chrome on WINDOWS (158b5e104521e88d54bf7fcce8f343fa)] -> xpath: //button[normalize-space()='Bank Manager Login']]<br>
+                                click on open account [[ChromeDriver: chrome on WINDOWS (158b5e104521e88d54bf7fcce8f343fa)] -> xpath: //button[normalize-space()='Open Account']]<br>
+                                select customer Harry Potter<brb>
+                                select currancy Pound<brb>
+                                click on process <brb>
+                                get text frpm popup window <brb>
+                                Accept popup<brb>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  customerShouldDepositMoneySuccessfully
+      </td>
+  <td class="duration">
+    1.461s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on log in button<brb>
+                                select Your name Hermoine Granger<br>
+                                click on log in buttonbr
+                                click on deposit <br>
+                                enter amount100to amount filed<br>
+                                click on deposit button<br>
+                                get succefful deposit textDeposit Successful<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  customerShouldLoginAndLogoutSuceessfully
+      </td>
+  <td class="duration">
+    1.186s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on log in button<brb>
+                                select Your name Harry Potter<br>
+                                click on log in buttonbr
+                                checking log out button dispayed <br>
+                                click on log out<brb>
+                                get text from your name tetx fieldYour Name :br
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
